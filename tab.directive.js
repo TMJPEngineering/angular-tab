@@ -28,7 +28,6 @@
             var tabCtrl = ctrl[1];
 
             tabsetCtrl.addTab(tabCtrl);
-            console.log(tabsetCtrl.tabs);
         }
     }
     /* @ngInject */
