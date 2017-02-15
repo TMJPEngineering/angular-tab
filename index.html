@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="tab">
+<html ng-app="angularTab">
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -18,12 +18,21 @@
   </nav>
   <br> <br>
   <div class="container">
-
+  <h1>Sample Header</h1>
+  <tabset>
+    <tab header-title="Tab1">
+      1 This is my first tab
+    </tab>
+    <tab header-title="Tab2">
+      2 Second tab is shown
+    </tab>
+  </tabset>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
   <script src="app.js"></script>
   <script src="tab.directive.js"></script>
+  <script src="tabset.directive.js"></script>
   <script src="tab.controller.js"></script>
 
 </body>

@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     angular
-        .module('tab')
+        .module('angularTab')
         .controller('TabController', TabController);
     TabController.$inject = [];
     /* @ngInject */

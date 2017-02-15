@@ -1,0 +1,10 @@
+<div role="tabpanel">
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation"
+      ng-repeat="tab in vm.tabs">
+      <a href="#" role="tab" class="green-text" ng-class="{'active': tab.isActive}" ng-click="vm.select(tab)"> {{ tab.headerTitle }} <span class="glyphicon {{ tab.glyphiconClass }}"></span></a>
+    </li>
+  </ul>
+</div>
+
+<ng-transclude></ng-transclude>
