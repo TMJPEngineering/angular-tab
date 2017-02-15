@@ -17,4 +17,4 @@
 | Attribute | Description                       | Type      | Default     |Required|
 |-----------|-----------------------------------|-----------|-------------|--------|
 | `header-title` | *sets the header of the tab*       | `string` | `none`     | `false` |
-| `glyphicon-class`  | *can be used when you wanter an icon be a header (bootstrap glyphicon only)*      | `string`  | `none` | `false` |
+| `glyphicon-class`  | *can be used when you want an icon be a header (bootstrap glyphicon only)*      | `string`  | `none` | `false` |
